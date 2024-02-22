@@ -1,0 +1,419 @@
+*{ 
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+main{
+    height: 75vh;
+    background-color: black;
+    background-image: url("netflixback.jpg");
+    background-size:max(1200px,100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.44;
+    background-color: black;
+    top: 0;
+}
+
+nav{
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;  
+    
+img{ 
+    width: 114px;
+    position: relative;
+    z-index: 10;
+    
+    }
+div{
+     position: relative;
+     z-index: 10;
+     
+     }      
+}
+
+.hero{
+    font-family: "Poppins", sans-serif;
+    height: calc(100%-62px);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-style: normal;
+    position: relative;
+    top: 175px;
+    padding: 0 29px;
+    text-align: center;
+    gap: 23px;
+
+}
+
+.hero> :nth-child(1){
+    
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero :nth-child(2){
+     font-size: 24px;
+     font-weight: 400;
+}
+
+.hero :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.separation{
+    height: 7px;
+    background-color: rgba(85, 76, 76, 0.4);
+    bottom: -5rem;
+}
+
+.English{
+    
+    font-weight: bold;
+    color: white;
+    background-color: rgb(22, 21, 21);
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 95px;
+    font-weight: 400;
+    border-radius: 5px;
+    line-height: 1.25rem;
+    text-align: center;
+
+}
+
+.SignIn{
+    padding: 3px 8px;
+    height: 25px;
+    width: 70px;
+    font-weight: 400;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+    background-color: red;
+    color:white;
+   
+}
+
+.Gest{
+    background-color: red;
+    color: white;
+    padding: 13px 24px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+main input{
+    padding: 15px 25px 15px 13px;
+    border-radius: 4px;
+    background-color: black;
+    border-color: white;
+    border-width: 0.5px;
+    background: transparent;
+    height: 25px;
+    width: 325px;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.input{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+.secImg{
+    position: relative;
+}
+
+.secImg img{
+    width: 548px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video{
+    position: absolute;
+    top: 112px;
+    right: 0px;
+    width: 548px;
+    height: 234px;
+}
+
+section.first > div{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+section.first>div :nth-child(1){
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 900;
+}
+section.first>div :nth-child(2){
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 24px;
+      }
+
+.separation2{
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -21rem;
+    background-color: rgb(35,35,35);
+}      
+
+.separation3{
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -54rem;
+    background-color: rgb(35,35,35);
+}  
+
+.secImg1{
+    position: relative;
+}
+
+.secImg1 img{
+    width: 521px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg1 video{
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    width: 521px;
+    height: 179px;
+
+}
+
+.separation4{
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -84rem;
+    background-color: rgb(35,35,35);
+}  
+
+.separation5{
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -114rem;
+    background-color: rgb(35,35,35);
+}  
+
+.faq h2{
+    display: flex;
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    justify-content: center;
+}
+.que{
+    display: flex;
+    margin: auto;
+    background-color: rgb(45, 45, 45);
+    max-width: 75vw;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 1.7rem;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 0 5rem 0.5rem 9.5rem;
+}
+
+.que:hover{
+    background-color: gray;
+}
+
+footer {
+    
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.ready{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin: 2.5rem 0 0.5rem 0;
+}
+.input1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.input1 input{
+    height: 48px;
+    width: 325px;
+    color: white;
+    margin: 1px 0 1.5px 0;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(0, 0, 0,0.4);
+}
+.English1{
+    display: block;
+    padding-right: 2.25rem;
+    line-height: 1.25rem;
+    padding-left: 1.5rem;
+    padding-bottom: 0.375rem;
+    padding-top: 0.375rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(22, 21, 21);
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 95px;
+    font-weight: 400;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2rem 0 0 ;
+}
+
+@media screen and (max-width: 1300px) {
+
+    nav{
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+    .secImg img {
+        width: 305px;
+    }
+
+    .secImg video {
+        width: 305px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .footer-item{
+        align-items: center;
+    }
+ 
+
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
